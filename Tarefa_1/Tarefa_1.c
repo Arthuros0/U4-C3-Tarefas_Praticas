@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
-#define VERMELHO 13
+#define VERMELHO 11
 #define AMARELO 12
-#define VERDE 11
+#define VERDE 13
 
 uint32_t mask_leds=(1<<13)|(1<<12)|(1<<11);
 
